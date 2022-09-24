@@ -23,7 +23,7 @@ body{
     box-shadow: 13px 13px 20px #cbced1,-13px -13px 20px #fff;
 }
 .logo{
-    background-image: url(../images/logo.jpg);
+    background-image: url(./images/logo.jpg);
     width: 100px;
     height: 100px;
     border-radius: 50%;

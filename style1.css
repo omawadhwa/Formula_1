@@ -6,13 +6,13 @@
     /*background-color: #24252A;*/
 }
 body{
-    background-image: url(../images/IMG-20220921-WA0013.jpg);
+    background-image: url(./images/wp8656100-f1-2021-wallpapers.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgb(0, 38, 255);
+    background-color: none;
 }
 li,a,button{
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;

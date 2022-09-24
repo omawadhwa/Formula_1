@@ -1,0 +1,142 @@
+/* Formula1_Website CSS */
+/* Navigation Bar Starts */
+.formula {
+    background-image: url(./images/MAIN_IMG.png);
+    background-size: 1370px;
+    background-repeat: no-repeat;
+    background-color:snow;
+
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    font-family: 'Arvo', serif;
+    box-shadow: 10, 10, 10, 10;
+    align-items: center;
+
+}
+
+.navbar ul {
+    overflow: auto;
+    padding: -16.5px 24.4px;
+}
+
+.navbar li {
+
+    float: left;
+    list-style: none;
+    margin: 26.9px 32px
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar input#search {
+    color: rgb(0, 0, 0);
+    padding: 12px 43.7px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 15px 18px;
+
+}
+
+.navbar li a:hover {
+    
+    color: red;
+}
+
+.navbar div input:hover {
+    border: 0px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+#logo {
+    overflow: auto;
+    float: left;
+    height: 67px;
+    width: 67px;
+    border-style: solid;
+    border-width: none;
+    border-radius: 200px;
+    border-color: rgb(255, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(https://pixelz.cc/wp-content/uploads/2019/01/formula-1-logo-uhd-4k-wallpaper.jpg);
+    margin-inline: -19px 20.5px;
+    background-size: 241px;
+    margin: auto;
+}
+
+#logo:hover {
+    border-color: white;
+    cursor: pointer;
+}
+
+/* Navigation Bar Ends */
+/* Main Content Starts */
+.btn1 {
+    border: 0px solid black;
+    border-radius: 17px;
+    margin: -10px 13px;
+    padding: 2px 3px;
+    float: right;
+    background: none;
+}
+
+.container li {
+    border: 0px solid rgb(116 51 51 / 50%);
+    background-color: rgb(0 0 0);
+    border-radius: 30px;
+    color: rgb(255 255 255);
+    float: left;
+    margin: 2px 1px;
+    padding: 7px 20px;
+    font-size: 19px;
+    font-family: 'Kanit', sans-serif;
+    list-style: none;
+    margin: 2px 14px;
+}
+
+.container li:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+
+div.audi{
+    padding: 126.1px 46.1px;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 200px;
+    width: 396.8px;
+    margin: 53.2px -384.9px;
+    float: right;
+    background-image: url(./images/Audi\ Speed83758-11.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px;
+    color: white;
+    font-size: larger;
+}
+
+div.audi:hover {
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.IntroTag li {
+  
+    list-style: none;
+    float: left;
+    margin: 2.9px 81.5px;
+    font-size: 53px;
+    color: rgb(255, 255, 255);
+}
+
+/* Main Content Ends */

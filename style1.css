@@ -28,10 +28,10 @@ header .logo{
     font-size: 2rem;
     font-weight: bold;
     font-family: "Montserrat",sans-serif;
-    transition: 3s ease;
+    transition: 0.4s ease;
 }
 header .logo:hover{
-    color: greenyellow;
+    color: rgb(245, 255, 47);
 }
 header{
     display: flex;
@@ -39,6 +39,7 @@ header{
     align-items: center;
     padding: 30px 10%;
     margin-top: -7%;
+    height: 300px;;
 }
 .logo{
     cursor: pointer;

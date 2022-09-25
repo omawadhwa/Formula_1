@@ -1,7 +1,7 @@
 /* Formula1_Website CSS */
 /* Navigation Bar Starts */
 .formula {
-    background-image: url(./images/MAIN_IMG.png);
+    background-image: url(./images/marek-piwnicki-aenR2pxWKYk-unsplash.jpg);
     background-size: 1370px;
     background-repeat: no-repeat;
     background-color:snow;
@@ -9,7 +9,7 @@
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.699);
     border-radius: 50px;
     font-family: 'Arvo', serif;
     box-shadow: 10, 10, 10, 10;
@@ -32,16 +32,17 @@
 .navbar li a {
     padding: 3px 3px;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
 .navbar input#search {
     color: rgb(0, 0, 0);
     padding: 12px 43.7px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 30px;
     margin: 15px 18px;
+    background-color: rgba(255, 255, 255, 0.5);
 
 }
 
@@ -50,9 +51,9 @@
     color: red;
 }
 
-.navbar div input:hover {
-    border: 0px solid rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.5);
+.navbar input:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -136,7 +137,7 @@ div.audi:hover {
     float: left;
     margin: 2.9px 81.5px;
     font-size: 53px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 /* Main Content Ends */

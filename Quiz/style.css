@@ -37,6 +37,9 @@
     --clr-black: #222;
 
     --transition: all 0.3s linear;
+
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 *{
@@ -144,7 +147,6 @@ ul li{
 }
 
 
-
 /* reposive css */
 @media screen and (max-width: 480px){
     .container{
@@ -197,4 +199,183 @@ ul li{
     #start {
         width: 80%;
     }
+}
+/* responsive ends */
+
+/* Question page css */
+.box{
+    width: 60vw;
+    height: 70vh;
+
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    background-color: white;
+    border-radius: var(--radius);
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 2rem;
+}
+
+.title{
+    border-bottom: 1px solid black;
+    color: #464646;
+    font-size: var(--font-size1);
+    padding-bottom: 0.5rem;
+    margin-bottom: var(--margin);
+    font-weight: 700;
+    width: 70%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: var(--margin);
+}
+
+.score, .timer{
+    border: 2px solid var(--clr-grey-5);
+    padding : 10px 15px;
+    border-radius: var(--radius);
+}
+
+.questionbox{
+    width: 100%;
+    min-height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 2px solid black; */
+    border-radius: var(--radius);
+
+    background-color: var(--clr-primary-7);
+}
+
+.optionbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: var(--margin);
+    margin: 30px 0;
+    grid-gap: 15px;
+    justify-items: center;
+
+    /* border: 2px solid green; */
+    width: 100%;
+}
+
+.optionbox span{
+    width: 15rem;
+    height: 4rem;
+    border-radius: var(--radius);
+    /* border: 1px solid red; */
+    padding: 10px 15px;
+
+    transition: var(--transition);
+}
+
+.optionbox span:hover{
+    box-shadow: var(--dark-shadow);
+    background-color: var(--clr-grey-10);
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer button{
+    min-width: 5rem;
+    height: 2.5rem;
+    border-radius: var(--radius);
+    border: none;
+    background-color: var(--clr-primary-4);
+    color: var(--clr-primary-10);
+    font-size: var(--font-size2);
+    transition: var(--transition);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.footer button:hover{
+    background-color: var(--clr-primary-10);
+    color: var(--clr-primary-4);
+}
+
+/* reposive css */
+@media screen and (max-width: 540px) {
+    .box {
+        height: 95vh;
+        width: 90vw;
+    }
+    .optionbox{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .box {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .box {
+        flex-direction: column;
+        width: 95vw;
+    }
+}
+/* responsive ends */
+
+.resultBox{
+    margin-top: var(--margin);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+    font-size: var(--font-size2);
+
+    margin-bottom: var(--margin);
+}
+
+.resultBox span{
+    font-weight: 400;
+}
+
+.bottomBox{
+    margin-top: var(--margin);
+    width: 70%;
+    padding-bottom: 0.5rem;
+    margin-bottom: var(--margin);
+    border-top: 1px solid black;
+    padding-top: var(--margin);
+}
+
+.bottomBox a{
+    min-width: 5rem;
+        height: 2.5rem;
+        border-radius: var(--radius);
+        border: none;
+        background-color: var(--clr-primary-4);
+        color: var(--clr-primary-10);
+        font-size: var(--font-size2);
+        transition: var(--transition);
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        text-decoration: none;
+}
+
+.bottomBox a:hover{
+    background-color: var(--clr-primary-10);
+    color: var(--clr-primary-4);
 }

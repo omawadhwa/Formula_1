@@ -1,11 +1,11 @@
 export let quiz = [
     {
-        question: "What does HTML stand for?",
+        question: "In Which country was the first 'Grand Prix' first used for a motor race?",
         option: [
-            "Hyper Tag Markup Language",
-            "Hyper Text Markup Language",
-            "Hyperlinks Text Mark Language",
-            "Hyperlinking Text Marking Language",
+            "Canada",
+            "France",
+            "Australia",
+            "Russia",
         ],
         answer: 2,
     },

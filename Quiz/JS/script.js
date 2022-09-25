@@ -41,7 +41,15 @@ const start = ()=>{
         timeEl.textContent = min+":"+sec;
 
         if(count==givenTime){
-            count=1;
+            alert("Time's Up!!!!!!!!!!!");
+            
+            showQuestion.style.display = "none";
+            showAns.style.display = "";
+
+            document.getElementById("resultQuestion").textContent = quiz.length;
+            document.getElementById("resultAttempt").textContent = attempted;
+            document.getElementById("resultCorrect").textContent = score;
+            document.getElementById("resultWrong").textContent = wrong;
         }
     }, 1000);
 
@@ -164,8 +172,18 @@ let resetOption= ()=>{
 }
 
 let showResult = ()=>{
+
+    if(index!=quiz.length-1 && !confirm("Do you want to end the quiz??")){
+        return;
+    }
+
     showQuestion.style.display = "none";
     showAns.style.display = "";
+
+    document.getElementById("resultQuestion").textContent = quiz.length;
+    document.getElementById("resultAttempt").textContent = attempted;
+    document.getElementById("resultCorrect").textContent = score;
+    document.getElementById("resultWrong").textContent = wrong;
 }
 
 //Ejector code

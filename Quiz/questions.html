@@ -8,35 +8,35 @@
     <title>Questions</title>
   </head>
   <body>
-    <div class="box" style="display: none">
+    <div class="box" id="questionContainer">
       <div class="title">Formula 1 Quiz</div>
 
       <div class="header">
-        <div class="score">Score: 0</div>
-        <div class="timer">Time: 00:00</div>
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="timer">Time: <span id="timer-el"></span></div>
       </div>
 
-      <div class="questionbox">What does HTML stand for?</div>
+      <div class="questionbox" id="question-el"></div>
 
       <div class="optionbox">
-        <span>Hyper Tag Markup Language</span>
-        <span>Hyper Text Markup Language</span>
-        <span>Hyperlinks Text Mark Language</span>
-        <span>Hyperlinking Text Marking Language</span>
+        <span id="op1"></span>
+        <span id="op2"></span>
+        <span id="op3"></span>
+        <span id="op4"></span>
       </div>
 
       <div class="footer">
-        <button>next</button>
-        <button>show result</button>
+        <button id="next-btn">next</button>
+        <button id="show-btn">show result</button>
       </div>
     </div>
 
-    <div class="box" id="resultScreen">
+    <div class="box" id="resultScreen" style="display: none">
       <div class="title">Quiz Result</div>
 
       <div class="resultBox">
         <label for="">Questions: </label>
-        <span>0</span>
+        <span>10</span>
         <label for="">Attempted: </label>
         <span>0</span>
         <label for="">Correct: </label>
@@ -50,4 +50,5 @@
       </div>
     </div>
   </body>
+  <script type="module" src="./JS/script.js"></script>
 </html>

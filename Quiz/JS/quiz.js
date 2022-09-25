@@ -1,4 +1,4 @@
-let quiz = [
+export let quiz = [
     {
         question: "What does HTML stand for?",
         option: [
@@ -83,3 +83,4 @@ let quiz = [
         answer: 3,
     },
 ];
+// export default quiz

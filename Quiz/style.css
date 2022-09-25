@@ -207,7 +207,7 @@ ul li{
 /* Question page css */
 .box{
     width: 60vw;
-    height: 70vh;
+    min-height: 70vh;
 
     text-align: center;
     
@@ -380,4 +380,16 @@ ul li{
 .bottomBox a:hover{
     background-color: var(--clr-primary-10);
     color: var(--clr-primary-4);
+}
+
+
+/* sucess class */
+.sucess{
+    background-color: var(--clr-green-light);
+    pointer-events: none;
+}
+
+.wrong{
+    background-color: red;
+    pointer-events: none;
 }

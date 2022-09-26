@@ -249,11 +249,13 @@ ul li{
 }
 
 .questionbox{
-    width: 100%;
+    min-width: 60%;
+    padding: 15px 20px;
     min-height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: var(--font-size2);
 
     /* border: 2px solid black; */
     border-radius: var(--radius);

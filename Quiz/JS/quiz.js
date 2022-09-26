@@ -10,24 +10,24 @@ export let quiz = [
         answer: 2,
     },
     {
-        question: "What does CSS stand for?",
+        question: "Which racing team has the nickname a 'THE PRANCING HORSE'?",
         option: [
-            "Computing Style Sheet",
-            "Creative Style System",
-            "Cascading Style Sheet",
-            "Creative Styling Sheet",
+            "Ferrari",
+            "Mclaren",
+            "Mercedes",
+            "Red bull racing",
         ],
-        answer: 3,
+        answer: 1,
     },
     {
-        question: "Where should a CSS file be referenced in a HTML file?",
+        question: "What is the name of youngest F1 driver to win a race?",
         option: [
-            "Before any HTML code",
-            "After all HTML code",
-            "Inside the head section",
-            "Inside the body section",
+            "Max Verstappen",
+            "Daniel Ricciardo",
+            "Lewis Hamilton",
+            "George Russel",
         ],
-        answer: 3,
+        answer: 1,
     },
     {
         question:
@@ -42,7 +42,7 @@ export let quiz = [
     },
     {
         question:
-            "What is the correct format for changing the background colour of a div in CSS?",
+            "Sebastian Vettel is currently a driver from Aston MArtin?",
         option: [
             "Bg-color:red;",
             "bg:red;",

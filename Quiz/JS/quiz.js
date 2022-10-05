@@ -42,7 +42,7 @@ export let quiz = [
     },
     {
         question:
-            "Sebastian Vettel is currently a driver from Aston MArtin?",
+            "Sebastian Vettel is currently a driver from Aston Martin and holder of the title Youngest World Driver?",
         option: [
             "Bg-color:red;",
             "bg:red;",

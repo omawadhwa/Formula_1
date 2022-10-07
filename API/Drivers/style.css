@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: 'Inter Tight', sans-serif;
+    --margin: 1rem;
+    --spacing: 0.25rem;
+    --radius: 0.5rem;
+
+    --font-size1: 1.5rem;
+    --font-size2: 1.2rem;
+
+    --clr-primary-1: hsl(205, 86%, 17%);
+    --clr-primary-2: hsl(205, 77%, 27%);
+    --clr-primary-3: hsl(205, 72%, 37%);
+    --clr-primary-4: hsl(205, 63%, 48%);
+    --clr-primary-5: #49a6e9;
+    --clr-primary-6: hsl(205, 89%, 70%);
+    --clr-primary-7: hsl(205, 90%, 76%);
+    --clr-primary-8: hsl(205, 86%, 81%);
+    --clr-primary-9: hsl(205, 90%, 88%);
+    --clr-primary-10: hsl(205, 100%, 96%);
+    --clr-grey-1: hsl(209, 61%, 16%);
+    --clr-grey-2: hsl(211, 39%, 23%);
+    --clr-grey-3: hsl(209, 34%, 30%);
+    --clr-grey-4: hsl(209, 28%, 39%);
+    --clr-grey-5: hsl(210, 22%, 49%);
+    --clr-grey-6: hsl(209, 23%, 60%);
+    --clr-grey-7: hsl(211, 27%, 70%);
+    --clr-grey-8: hsl(210, 31%, 80%);
+    --clr-grey-9: hsl(212, 33%, 89%);
+    --clr-grey-10: hsl(210, 36%, 96%);
+    --clr-white: #fff;
+    --clr-red-dark: hsl(360, 67%, 44%);
+    --clr-red-light: hsl(360, 71%, 66%);
+    --clr-green-dark: hsl(125, 67%, 44%);
+    --clr-green-light: hsl(125, 71%, 66%);
+    --clr-black: #222;
+
+    --transition: all 0.3s linear;
+
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+body{
+    text-align: center;
+    background-image: url(./img/wp8656100-f1-2021-wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.heading h1{
+    font-family: 'Silkscreen', cursive;
+    font-size: 3rem;
+    color: red;
+    margin: var(--margin);
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: var(--margin);
+}
+
+.list a{
+    text-decoration: none;
+    display: block;
+    color: black;
+
+    width: 70%;
+    /* border: 2px solid var(--clr-primary-4); */
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: var(--margin);
+    padding: var(--margin);
+
+    transition: var(--transition);
+}
+
+.list a:hover{
+    box-shadow: var(--dark-shadow);
+    transform: scale(1.05);
+}
+
+.driver{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name h1{
+    font-family:'Gemunu Libre', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+}
+span{
+    font-weight: 200;
+    font-size: 2rem;
+}

@@ -7,9 +7,9 @@ const list = document.querySelector(".list");
 fetch("http://ergast.com/api/f1/2022/drivers.json", requestOptions)
   .then(response => response.json())
   .then((response) =>{
-    // console.log(result);
+    // console.log(response);
     const result = response.MRData.DriverTable.Drivers;
-    // console.log(result);
+    console.log(result);
 
     printResult(result);
   })

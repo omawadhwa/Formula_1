@@ -29,7 +29,7 @@ function printResult(result) {
             <h1>${i.Driver.givenName} <span>${i.Driver.familyName}</span></h1>
           </div>
           <div>${i.Constructor.constructorId}</div>
-          <div class="number">${i.Driver.permanentNumber}</div>
+          <div class="number">${i.points}</div>
           <div class="country">${i.Driver.nationality}</div>
         </div>
       `;

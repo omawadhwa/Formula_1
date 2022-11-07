@@ -1,7 +1,7 @@
 /* Formula1_Website CSS */
 /* Navigation Bar Starts */
 .formula {
-    background-image: url(./images/hiroshi-kimura-I6QUQeumKrc-unsplash.jpg);
+    background-image: url(./images/Formula1background.png);
     background-size: 1370px;
     /* background-repeat: no-repeat; */
     background-color: snow;
@@ -10,7 +10,7 @@
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.137);
+    background-color: rgb(0, 0, 0);
     border-radius: 50px;
     font-family: 'Play', sans-serif;
     box-shadow: 10, 10, 10, 10;
@@ -338,7 +338,7 @@ li.title{
     color: white;
     font-family: 'Kanit', sans-serif;
     text-shadow: 5px 5px 30px black;
-    background-image: url(./images/png1.png);
+    /* background-image: url(./images/png1.png); */
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: 458.7px 10px;
@@ -357,6 +357,7 @@ h1.bigtext{
     height: 123.1px;
     width: 1010px;
     margin-left: 110px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
     /* -webkit-text-stroke: 5px black; */
     
 }

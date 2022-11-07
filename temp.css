@@ -1,0 +1,480 @@
+/* Formula1_Website CSS */
+/* Navigation Bar Starts */
+.formula {
+    background-image: url(./images/hiroshi-kimura-I6QUQeumKrc-unsplash.jpg);
+    background-size: 1370px;
+    /* background-repeat: no-repeat; */
+    background-color: snow;
+    
+
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 50px;
+    font-family: 'Play', sans-serif;
+    box-shadow: 10, 10, 10, 10;
+    align-items: center;
+
+}
+
+
+
+.navbar li {
+
+    float: left;
+    list-style: none;
+    margin: 26.9px 32px
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.navbar input#search {
+    color: rgb(0, 0, 0);
+    padding: 12px 43.7px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-top: 14.5px;
+    margin-bottom: 15.8px;
+
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+}
+
+
+.navbar li a:hover {
+
+    color: rgb(255, 0, 0);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar input:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+
+}
+
+#logo {
+    overflow: auto;
+    float: left;
+    height: 67px;
+    width: 67px;
+    border-style: solid;
+    border-width: none;
+    border-radius: 200px;
+    border-color: rgb(255, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(https://pixelz.cc/wp-content/uploads/2019/01/formula-1-logo-uhd-4k-wallpaper.jpg);
+    margin-inline: -19px 20.5px;
+    background-size: 241px;
+    margin: auto;
+    margin-left: -40px;
+}
+
+#logo:hover {
+    border-color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+}
+
+/* ***********************submenus_START************************************* */
+
+/* *******************************submenu1(teams)************************* */
+.sub-menu1 {
+    display: none;
+}
+
+.navbar li a:hover .sub-menu1 {
+    color: red;
+
+}
+
+.sub-menu1 li a {
+    color: white;
+}
+
+.navbar li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 27px;
+    margin-left: -750px;
+    margin-right: 0px;
+
+
+}
+
+.navbar li:hover .sub-menu1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar li:hover .sub-menu1 ul li {
+    width: 240px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(255, 0, 0);
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* *************************submenu2(drivers)*********************************** */
+.sub-menu2 {
+    display: none;
+
+}
+
+.navbar li a:hover .sub-menu2 {
+    color: red;
+
+}
+
+.sub-menu2 li a {
+    color: white;
+}
+
+.navbar li:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 27px;
+    margin-left: -577px;
+    margin-right: 0px;
+
+
+
+}
+
+.navbar li:hover .sub-menu2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar li:hover .sub-menu2 ul li {
+    width: 230px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(255, 0, 0);
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* ***************************submenu3(standings)*********************************** */
+.sub-menu3 {
+    display: none;
+
+}
+
+.navbar li a:hover .sub-menu3 {
+    color: red;
+
+}
+
+.sub-menu3 li a {
+    color: white;
+}
+
+.navbar li:hover .sub-menu3 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 27px;
+    margin-left: -200px;
+    margin-right: -100px;
+
+
+
+}
+
+.navbar li:hover .sub-menu3 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar li:hover .sub-menu3 ul li {
+    width: 230px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(255, 0, 0);
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* **********************submenu4(schedule)************************************* */
+.sub-menu4 {
+    display: none;
+
+}
+
+.navbar li a:hover .sub-menu4 {
+    color: red;
+
+}
+
+.sub-menu4 li a {
+    color: white;
+}
+
+.navbar li:hover .sub-menu4 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 27px;
+    margin-left: -200px;
+    margin-right: -100px;
+
+
+
+}
+
+.navbar li:hover .sub-menu4 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar li:hover .sub-menu4 ul li {
+    width: 230px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(255, 0, 0);
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+/* **********************submenu5(latest)************************************* */
+.sub-menu5 {
+    display: none;
+
+}
+
+.navbar li a:hover .sub-menu5 {
+    color: red;
+
+
+}
+
+.sub-menu5 li a {
+    color: white;
+}
+
+.navbar li:hover .sub-menu5 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-top: 27px;
+    margin-left: -200px;
+    margin-right: -100px;
+
+
+
+}
+
+.navbar li:hover .sub-menu5 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar li:hover .sub-menu5 ul li {
+    width: 230px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(255, 0, 0);
+    background: transparent;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+/* ***********************submenus_END************************************* */
+
+/* Navigation Bar Ends */
+/* Main Content Starts */
+div.intro ul{
+    list-style: none;
+}
+li.game{
+    float: left;
+    background-color: rgb(0, 38, 255);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 130px;
+    width: 198.8px;
+    height: 179.5px;
+    margin-top: -50px;
+    margin-left: -10px;
+    color: rgb(255, 0, 0);
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    box-shadow: 5px 5px 20px black;
+}
+li.game:hover{
+    box-shadow: 5px 5px 50px rgb(255, 255, 255);
+    cursor: pointer;
+    border-color: white;
+    
+}
+h1.gametext{
+    margin-left: -10px;
+    /* -webkit-text-stroke: 0.5px rgb(0, 0, 0); */
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+li.title{
+    font-size: 50px;
+    margin-left: -70px;
+    text-align: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 5px 5px 30px black;
+    background-image: url(./images/png1.png);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 458.7px 10px;
+}
+h2.smalltext{
+
+    margin-top: -60px;
+    font-size: 80px;
+    width: 1010px;
+    height: 110px;
+    margin-left: 204.5px;
+}
+h1.bigtext{
+    font-size: 130px;
+    color: red;
+    height: 123.1px;
+    width: 1010px;
+    margin-left: 110px;
+    /* -webkit-text-stroke: 5px black; */
+    
+}
+
+
+    
+.btn1 {
+    border: 0px solid black;
+    border-radius: 17px;
+    margin: -10px 13px;
+    padding: 2px 3px;
+    float: right;
+    background: none;
+}
+
+
+.container li {
+    border: 0px solid rgb(116 51 51 / 50%);
+    background-color: rgb(0 0 0);
+    border-radius: 30px;
+    color: rgb(255 255 255);
+    float: left;
+    margin: 2px 1px;
+    padding: 7px 20px;
+    font-size: 19px;
+    font-family: 'Kumbh Sans', sans-serif;
+    list-style: none;
+    margin: 2px 14px;
+}
+
+.container li:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
+
+}
+button.btn1{
+    color: red;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+img.img1{
+    /* border-style: solid; */
+    /* border-width: 8px; */
+    margin-left: -20px;
+    float: left;
+    margin-top: 25px;
+    width: 1100px;
+    height: 300px;
+    border-top-right-radius: 170px;
+    border-bottom-right-radius: 170px;
+    border-color: white;
+    box-shadow: 5px 5px 20px black;
+}
+img.img1:hover{
+    box-shadow: 5px 5px 50px white;
+    cursor: pointer;
+}
+img.img2{
+    /* border-style: solid; */
+    border-color: rgb(255, 0, 0);
+    /* border-width: 8px; */
+    width: 1100px;
+    height: 300px;
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 170px;
+    box-shadow: 5px 5px 20px black;
+    margin-right: -8px;
+    float: right;
+    margin-top: 90px;
+}
+img.img2:hover{
+    box-shadow: 5px 5px 50px white;
+    cursor: pointer;
+}
+div.fantasy ul{
+    list-style: none;
+}
+div.fantasy{
+    width: 1238px;
+    height: 410px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-top: 110px;
+    border-radius: 100px;
+    margin-left: 44px;
+    box-shadow: 5px 5px 20px black;
+    transition: 0.7s ease-in-out;
+}
+div.fantasy:hover{
+ box-shadow: 5px 5px 50px white;   
+ background-color: rgb(0, 0, 0);
+ cursor: pointer;
+}
+img.fant{
+    width: 892px;
+    height: 386.3px;
+    border-radius: 100px;
+    margin-top: -4.3px;
+    margin-left: -26.9px;
+}
+li.fanttext{
+    color: rgb(255, 255, 255);
+    float: right;
+    margin-top: -361.6px;
+    margin-right: 38.1px;
+    font-size: 43px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+
+
+/* Main Content Ends */

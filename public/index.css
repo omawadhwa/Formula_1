@@ -1,7 +1,7 @@
 /* Formula1_Website CSS */
 /* Navigation Bar Starts */
 .formula {
-    background-image: url(/images/Formula1background.png);
+    background-image: url(./images/Formula1background.png);
     background-size: 1370px;
     /* background-repeat: no-repeat; */
     background-color: snow;

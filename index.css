@@ -5,8 +5,6 @@
     background-size: 1370px;
     /* background-repeat: no-repeat; */
     background-color: snow;
-    
-
 }
 
 .navbar {
@@ -25,12 +23,14 @@
     float: left;
     list-style: none;
     margin: 26.9px 32px
+    
 }
 
 .navbar li a {
     padding: 3px 3px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    transition: 1s ease-in-out;
 }
 
 
@@ -89,6 +89,7 @@
 /* *******************************submenu1(teams)************************* */
 .sub-menu1 {
     display: none;
+    transition: 1s ease-in-out;
 }
 
 .navbar li a:hover .sub-menu1 {
@@ -98,6 +99,7 @@
 
 .sub-menu1 li a {
     color: white;
+    transition: 1s ease-in-out;
 }
 
 .navbar li:hover .sub-menu1 {
